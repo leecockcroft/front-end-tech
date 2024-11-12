@@ -1,0 +1,165 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.wrapper{
+    max-width:375px;
+}
+
+.container{
+padding:40px;
+}
+
+.header h1 {
+    color: #4D4F62;
+font-family: Poppins;
+font-size: 23.4px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.167px;
+}
+.header {
+    margin-bottom:76px;
+}
+
+.header h2 {
+    color: #4D4F62;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.167px;
+}
+
+.header p {
+    color: #4D4F62;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.104px;
+width: 311px;
+padding-top: 13px;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.box{
+    width: 311px;
+height: 222px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+padding:28px;
+position:relative;
+}
+
+.box h3 {
+    color: #4D4F62;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.box p {
+color: #4D4F62;
+
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.104px;
+}
+
+.box img {
+    position:absolute;
+    bottom:28px;
+    right:28px;
+    width: 57px;
+height: 57px;
+
+}
+
+.left .box{
+    border-top:3.5px solid #44D3D2;
+}
+
+.middle .box:first-child{
+    border-top:3.5px solid #EA5454;
+}
+.middle .box:nth-child(2){
+    border-top:3.5px solid #FCAE4A;
+}
+
+.right .box{
+    border-top:3.5px solid #549EF2;
+}
+
+
+
+@media (min-width: 600px){
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+    
+.wrapper{
+    max-width:1440px;
+        justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header p {
+    width: 540px;
+color: #4D4F62;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.104px;
+}
+
+main {
+    flex-direction: row;
+}
+
+.left,.right{
+    align-self: center;
+}
+
+.middle {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+}
