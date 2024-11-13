@@ -117,17 +117,13 @@ height: 57px;
 @media (min-width: 600px){
 
 body{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height:100vh;
+
+   
 }
     
 .wrapper{
     max-width:1440px;
-        justify-content: center;
-    display: flex;
-    align-items: center;
+    margin: 80px auto;
 }
 
 .header{
@@ -155,6 +151,7 @@ letter-spacing: 0.104px;
 
 main {
     flex-direction: row;
+    justify-content: center;
 }
 
 .left,.right{
